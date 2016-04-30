@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/leijurv
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://leijurv.com
+  * I am leijurv (https://keybase.io/leijurv) on keybase.
+  * I have a public key with fingerprint 57C4 7C31 750A 2FBD 7C72  D77D 0936 2024 30AE 187C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01011b446657b907bed03485505c48eea931bc09386f32319241ae79e7aa0ba088690a",
+            "fingerprint": "57c47c31750a2fbd7c72d77d0936202430ae187c",
+            "host": "keybase.io",
+            "key_id": "0936202430ae187c",
+            "kid": "01011b446657b907bed03485505c48eea931bc09386f32319241ae79e7aa0ba088690a",
+            "uid": "a4551c2cf536ae0e4ede0d3d51463319",
+            "username": "leijurv"
+        },
+        "service": {
+            "hostname": "leijurv.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1462041035,
+    "expire_in": 157680000,
+    "prev": "52fcaa0007e3087ef1b04c1f9612d552471fbb0fd87dbad64f9ae6b546579cd8",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMM5AnicrVJtUFRVGN6VNJfkIy1DmAxvIkPCdu7nuRdRNESYJplgcdbEZM6999zl
+Cuxuu3dXQHE0adJECYiPLBmqidARy1JacZgBFMohU3D4ARU7lNEQU0ygGYwj3Wv1
+o+lv58+Z857ned7nfea9EhZiCjVbuNjV4GzUPnN/d53PZF8927+XEF1yKZG8lyjE
+Dy5cJGOvll+oykQyAUhAkiLDcBwLRQFAEcuAZniWBazE8BgjgSZFCQg0zyk0RZMC
+xZAIQwFDhICIAM9zAkBEIqGoTgf2uD2qU9NlWSgxUKJJyAJEKaIMJUjJEMq6EEcB
+iqEBwiQPJZ1Y4PIaDN2ciLzYqrr0mv7I/8vef/H/s2/fAznEsCwpUZLC0hzCADNY
+xkCmZZZkOFpnG0Av9jhRMdbRRVjd7fP4ifJEQi/6VQkbuRqD/BtglVzFOtPtcWku
+yVWkfxRomjvZ4GmlbgO4B4v5f0vki6pT1kPUCX7s8aouJ5FM6khJUw1N3QgFGBLQ
+bCKBS9yqB+erBoKFHA/0Y7TBfiN6SpH0GQGAmAY8xAopAkYiFYEjKZllKQaSiigC
+ReahLCKZYxQBYU5kGT1JQZJ5whjqFadL14a6T+TQNb2qw4k0nwcT5T3dOx8ymUNN
+ixYuMLbLFGqJ/GfnUq2RpvcO+qfo+3xIBwneHqm0whNpxTsEW9Jn0yOlfEtbFjOg
+rdt2qa7vYlhkcDwqxhtoyUz5tepV8vfmb8MzLPMrzn61PdCT447wxPVU36n6dGNO
+3aLUjFU1DLOf8aH9nTn27Guvz722wtxUeAMHa08V7LAnRifM3xK33MwCE9crUFhj
+03DoB1T75S/3dZ57ofnFY+vztKLFNZsWmys32tJXttcfzToZ8GdEdWT/VNkcXOsz
+/WZpOtLGLY0/f+flVHTbCmY3IauAPu57brhBjs78PFA9dOrh5twYP2Gpacxr3D0y
+QuyibD8cPHr3Cbh2qHlmSa7dZDtesefW6BJT2eRMRU96XEJycV3v81Nj0W1pjwyd
+G40fbFDeKq6qXn/82KPpXTv7v1l26MjpNdvabQ3OsvAGVL9y6b0/smsLfJaW6dhP
+BqcR/LE0Ni9pLq4o8p0tC57qH2v94hJZcjXosJ/IdN7omvl+w88l08FRkh7eXF7Y
+m9t+mVwTwFnrJkNh7X3q9ryj7G5HSNfCzvn3G7c+ezrF/eRkxuGUmrbHxp+u3f71
+9aS5x5u+u3cz+8xH+NCB8WUXtRz71t6I8HdXVajXXpqK0QZtgbHzH85eGsyO2IAq
+Wy9cmRjsw50D1dquye76svg3zLkHcu1VF5afcdgPD4QkpLfGpU32Lk+bmNscPBmM
+9r/5zC9X/wQYcrWA
+=5vCI
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/leijurv
+
+==================================================================
+
