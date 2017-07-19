@@ -73,3 +73,92 @@ View my publicly-auditable identity here: https://keybase.io/leijurv
 
 ==================================================================
 
+==================================================================
+https://keybase.io/leijurv
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://leijurv.com
+  * I am leijurv (https://keybase.io/leijurv) on keybase.
+  * I have a public key with fingerprint 0FDE DDE0 DB51 BD99 D3D2  09C5 44A3 EA64 6EAD AC6A
+
+To do so, I am signing this object:
+
+{
+    &quot;body&quot;: {
+        &quot;key&quot;: {
+            &quot;eldest_kid&quot;: &quot;01011b446657b907bed03485505c48eea931bc09386f32319241ae79e7aa0ba088690a&quot;,
+            &quot;fingerprint&quot;: &quot;0fdedde0db51bd99d3d209c544a3ea646eadac6a&quot;,
+            &quot;host&quot;: &quot;keybase.io&quot;,
+            &quot;key_id&quot;: &quot;44a3ea646eadac6a&quot;,
+            &quot;kid&quot;: &quot;0101053aa4047f4ef18e259d4f64b3b120352488bf9a7ed6f8ef6804d8487f5d40580a&quot;,
+            &quot;uid&quot;: &quot;a4551c2cf536ae0e4ede0d3d51463319&quot;,
+            &quot;username&quot;: &quot;leijurv&quot;
+        },
+        &quot;merkle_root&quot;: {
+            &quot;ctime&quot;: 1500471825,
+            &quot;hash_meta&quot;: &quot;0c30616124b13c3f491849f04e7286ec0eeca7274f300ccd50942bf68db6d0d1&quot;,
+            &quot;seqno&quot;: 1262301
+        },
+        &quot;revoke&quot;: {
+            &quot;sig_ids&quot;: [
+                &quot;a5ef877b04feb67c802357c73f8b2c627e15e6ec6405da222d4e605ac25448650f&quot;
+            ]
+        },
+        &quot;service&quot;: {
+            &quot;hostname&quot;: &quot;leijurv.com&quot;,
+            &quot;protocol&quot;: &quot;http:&quot;
+        },
+        &quot;type&quot;: &quot;web_service_binding&quot;,
+        &quot;version&quot;: 1
+    },
+    &quot;ctime&quot;: 1500471839,
+    &quot;expire_in&quot;: 157680000,
+    &quot;prev&quot;: &quot;bbd2062e388ff23a43ce41c3a44c9cdd04a4cfa067f712b3b99980d46bd2b780&quot;,
+    &quot;seqno&quot;: 69,
+    &quot;tag&quot;: &quot;signature&quot;
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.73
+Comment: https://keybase.io/crypto
+
+yMP3AnicbVNrbBVFGC3FtgEFwfDQi4AuoBiadnZ3dnb3BoEKltA2RcWE15XLzM5s
+u33cLbvbAoGqBKE0pKWEh32goG00KFBBYhGIuUBbVGKiUKA8xAIitBj0FokCUpxt
+NETj/tnX+c453/m+aR7QN65/n2n1XTSyc0den2OH3eK4uTYZvUwgNl0qBJcJ+az3
+xgooc71wvkWFoABEIIoEQoQUlehAJYwCGWqKAhQDaoxhXRaJAXRZQ6YsyaIuQREz
+VWcqxoBgoGlIB1hIFkwrksOcIseKeD6tSRmlDFCiiITqOpWpBHRDgRDLDCOIGKbY
+QH5hru36FdwcwS5LsWz+jb+Ee+39D/6Bb6DIGEMAVRMyU9SYpOgUmggSmYgSkBUJ
+ahoxdawyikyNmUgDkGpQU02FQqBovb6Le+kwVBTRkAxTkRFmgEHmm5epIkIk8659
+oMucCC5kHF3ArLxip0QoTRYKmZNfwMKObXt+toZn+QhRAdyWqEkK7w+7ueFC5mHf
+tSEDJCJRgkSUDdmEuqhB3QSQqZKGmAEYM7AqqdCUATAMqgAdSoQbpwRRQEVuw2WL
+IjZXkJAkA5E7cFiJnc98cdfK4am5QnC+gBVmaqpKADQZQaqhAUlWVEOVTY1IBpJU
+JiqMCyKeA8WSJFHIEFCwIfERaUgBpvBaqS/mlFhGL7k/pn+3n2LYhdxQkWN7tmEX
+8B+5nlcU9FPxlhb5wMWMhP+mCBMrQvmK8IIS5riWHeE9cOR/ApP1ZIEtKbIcFrZ8
+hKLyofHLl2ElnJIQvkhIYrKmmaYkYygbDIoGf4CGblAKIIaGiQFSTVWU+Cbouq4B
+ChGvI6oGHiSIuJSHczgnzy2CvWKHCaWHD4UeiuvTPy4xId4/O3H9+w3650RlyI/2
+pMzP7rl0tvrjxt8CtUnbJ9S0k/TZZftGB/dfe3Nn3eDs21kf3i1/8eXnSMXzncGu
+FwLXh6jle9pmefNuZP6Ov5oY2j/j3oLJT1xPfdiu3DA1Y1ny1JlXrs6tq3s3sHzk
+d/3uNnWPeiW+ISEL/bIgLbqxoGrIOfFsdcOT3avObB5T1pwkBbzK92rL/rx7tSV2
+KtqxznaqVjbFs/LQ6Oy+G3+uuzDevqCSssbQtnXOsFcrjlsd2etr3lo+x2k/fT/W
+9sXQE6GMNZlH3KBb//Tww9bbbQmzYgcD68GYVZ/cv5C6unbLraC9qP3X0ytGHgwl
+Tjg7vWVxd33uwE2TWlvHblzeKcHNXXdi/YJ76irjhn6dM/H89ivJVlnssZsVn/5x
+ynjp9doUoTtzRPRixd7pA6JN4yLb80rT16Snb9olL7w8cVIge+H7SY372qzkE/U7
+utY809wajQ37oTLa0jV5zrjh1ZdODk1sZ9cuDfpxdmrDrVAavBdRx59IA5XRD3rG
+rhywIf7KqPKtQ3a/kSHc/Dzr8TMDq3Baj9jxfUJ888zBaQc7YgnVh8CUO484VSu+
+fepofScyS53BI46dX7p23pK8EWV7P/sJNHyZtC3B3dJ8fHdb6owlt7MSS6bFf/TO
+UaUYZN5qrs+N0Pyey0erV7XkHPhma+zAmOIjWwOrT05TG6/eWPis0tQBajI6p8y/
+eG7X7r8Ac+cFwg==
+=zlvX
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/leijurv
+
+==================================================================
+
