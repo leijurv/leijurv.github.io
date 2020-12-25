@@ -14,7 +14,31 @@ body {
 	font-size: 18px;
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
+.target-hover {
+    display: none;
+    z-index: 999;
+    position: absolute;
+    width: max-content;
+    background: black;
+    color: white;
+    z-index: 999;
+    border: 2px solid purple;
+    border-radius: 4px;
+    padding: 5px;
+    background: #0f0f23;
+	color: #cccccc;
+	font-family: "Source Code Pro", monospace;
+	font-size: 14pt;
+	min-width: 60em;
+}
+.leaderboard-daydesc-first {
+  color: #9999cc;
+}
+.leaderboard-daydesc-both {
+  color: #ffff66;
+}
 </style>
+<link href='//fonts.googleapis.com/css?family=Source+Code+Pro:300&subset=latin,latin-ext' rel='stylesheet' type='text/css'/>
 </head>
 <body>
 <a href="/">&lt;</a>
@@ -22,6 +46,24 @@ body {
 <div style="width: 80%; margin-left: 10%; margin-top: 1em">
 <center style="margin-top: 1em"><b><h2>Projects</h2></b></center>
 <ul>
+
+<li>
+<b>
+<a href="https://github.com/cabaletta/baritone">Baritone</a>
+</b>
+<div style="float: right">August 2018 - Present</div>
+<br>
+A Minecraft mod for pathfinding and general client-side automation. >2M downloads directly from GitHub releases, probably a similar number (untracked) from maven. Comes packaged as standard with many clients.
+</li>
+
+<li>
+<b>
+<a href="https://impactclient.net/">Impact Client</a>
+</b>
+<div style="float: right">February 2019 - Present</div>
+<br>
+A Minecraft utility mod. Closed source. 2M monthly launches. 10K-15K DAU, 100K MAU (distinct by Minecraft account).
+</li>
 
 <li>
 <b>
@@ -178,6 +220,103 @@ Interactive Java program to solve Connect Four for a given board state using min
 
 <li>
 <b>
+<a href="https://adventofcode.com/2020/leaderboard">Advent of Code 2020</a>
+</b>
+<div style="float: right">December 2020</div>
+<br>
+Placed 13th globally out of <a href="https://adventofcode.com/2020/stats">&gt;150,000</a>. Placed in global top 100 in 21 out of 24 days for part 2.
+<br>
+
+<a href="#" class="collapsible" onclick="return false;">My stats</a>
+<div class="target-hover">
+<pre>      <span class="leaderboard-daydesc-first">-------Part 1--------</span>   <span class="leaderboard-daydesc-both">-------Part 2--------</span>
+Day   <span class="leaderboard-daydesc-first">    Time  Rank  Score</span>   <span class="leaderboard-daydesc-both">    Time  Rank  Score</span>
+ 25   00:06:06    54     47   00:07:18    84     17
+ 24   00:07:06    98      3   00:09:54    21     80
+ 23   00:09:24    70     31   02:12:19  1626      0
+ 22   00:03:17    19     82   00:11:12     7     94
+ 21   00:10:44    79     22   00:13:28    46     55
+ 20   00:27:09   448      0   00:41:48    13     88
+ 19   00:05:12     3     98   00:18:23    38     63
+ 18   00:04:36    20     81   00:06:12    12     89
+ 17   00:11:45   143      0   00:17:21   213      0
+ 16   00:04:00    11     90   00:20:03    86     15
+ 15   00:04:23    47     54   00:09:24   100      1
+ 14   00:04:48    22     79   00:08:23     9     92
+ 13   00:06:14   534      0   00:11:05    41     60
+ 12   00:03:56    19     82   00:08:06    28     73
+ 11   00:06:05    31     70   00:09:06    20     81
+ 10   00:02:55    29     72   00:08:17    83     18
+  9   00:02:34    41     60   00:04:14    15     86
+  8   00:03:38   127      0   00:05:39    17     84
+  7   00:05:41    17     84   00:08:05     6     95
+  6   00:01:41    20     81   00:03:26    32     69
+  5   00:04:43   191      0   00:06:08   127      0
+  4   00:04:12   140      0   00:11:04    49     52
+  3   00:02:00    32     69   00:04:19    58     43
+  2   00:02:24    81     20   00:03:25    37     64
+  1   00:48:55  5431      0   00:49:42  4849      0
+(thankfully day 1 didn't count due to downtime, because I was not prepared)</pre>
+</div>
+</li>
+
+<li>
+<b>
+<a href="https://adventofcode.com/2019/leaderboard">Advent of Code 2019</a>
+</b>
+<div style="float: right">December 2019</div>
+<br>
+Placed 33rd globally out of <a href="https://adventofcode.com/2019/stats">&gt;100,000</a> (despite only attemping 18 out of the 25 days).
+<br>
+<a href="#" class="collapsible" onclick="return false;">My stats</a>
+<div class="target-hover">
+<pre>      <span class="leaderboard-daydesc-first">--------Part 1--------</span>   <span class="leaderboard-daydesc-both">--------Part 2--------</span>
+Day   <span class="leaderboard-daydesc-first">    Time   Rank  Score</span>   <span class="leaderboard-daydesc-both">    Time   Rank  Score</span>
+
+stopped at day 20 (IRL reasons)
+
+ 20   00:39:32    224      0   00:59:16    130      0
+ 19   00:03:36     96      5   01:23:14    670      0
+ 18   00:46:04     97      4   00:54:54     15     86
+ 17   00:04:06      7     94   00:37:53     50     51
+ 16   00:11:21     95      6   00:31:55     16     85
+ 15   00:15:05     21     80   00:20:52     10     91
+ 14   00:15:01     19     82   00:17:29     11     90
+ 13   00:03:22     96      5   00:15:10     29     72
+ 12   00:06:02      5     96   00:33:05     75     26
+ 11   00:05:41      9     92   00:16:17    106      0
+ 10   00:17:14    178      0   00:35:16     60     41
+  9   00:15:49    124      0   00:17:11    131      0
+  8   00:03:32     36     65   00:15:27    268      0
+  7   00:04:35      7     94   00:15:41      5     96
+  6   00:06:40    137      0   00:12:48    132      0
+  5   00:10:01     20     81   00:16:12     27     74
+  4   00:04:11    251      0   00:05:31     61     40
+  3   00:15:10    307      0   00:18:45    209      0
+
+only learned about it between days 2 and 3 :)
+</pre>
+</div>
+</li>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+} 
+</script>
+
+<li>
+<b>
 <a href="http://projecteuler.net/">Project Euler</a>
 </b>
 <div style="float: right">Fall 2012 - Present</div>
@@ -191,7 +330,7 @@ Completed 275 Project Euler problems on a team of 2. Out of 780,527 registered m
 </b>
 <div style="float: right">Spring 2013</div>
 <br>
-Placed 1st in North America and tied for 4th worldwide for the 2013 HackerRank Matheletics competition on a team of 2.
+Tied for 4th worldwide for the 2013 HackerRank Matheletics competition on a team of 2. (ZurfL)
 </li>
 
 <li>
