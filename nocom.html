@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>
+Nocom
+</title>
+<style type="text/css">
+li {
+	margin: 1em;
+}
+body {
+	color: #444;
+	line-height: 1.4;
+	font-size: 18px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+<a href="/projects.html">&lt;</a>
+<br>
+<div style="width: 80%; margin-left: 10%; margin-top: 1em">
+<center style="margin-top: 1em"><b><h2>Nocom</h2></b></center>
+<p>"No comment" ("nocom") was a group project that I spent a lot of time on, from March 2020 to July 2021.</p>
+<p>Perhaps the best quick explanation can be found in <a href="https://news.ycombinator.com/item?id=29615428">the comments of a Hacker News post about this</a>, where I answered lots of questions. It ended up almost like a FAQ. The best in-depth explanation is <a href="https://www.youtube.com/watch?v=elqAh3GWRpA">FitMC's YouTube video</a>.</p>
+<p>Regardless, nocom was a system that tracked player movement and actions on a particular Minecraft server. The server of choice was <a href="https://en.wikipedia.org/wiki/2b2t">2b2t</a>, a so-called "anarchy" server. It's by far the largest and most popular server of that variety, in which players are not banned for any reason, not even hacking/modding their game client, or griefing other players. The name of the game is using any and all means, whether technological or otherwise, to get an edge over other players.</p>
+<p>In March 2020, I was told about a flaw in the server software, and challenged to create a machine learning system to exploit it. The exploit was that the server could be made to reveal, upon request, whether or not any coordinate in the map was currently loaded into memory (meaning, very close to a currently online player). I created an adaptive tracking system, using techniques such as a Monte Carlo particle filter to follow players as they moved around, as efficiently as possible (requiring a minimal number of requests per second).</p>
+<p>Additionally, the exploit packet would cause the server to reveal which Minecraft block was placed at the coordinate we asked about. We used this to create a system that remotely downloaded practically every build on the server.</p>
+<p>This system collected 1.8 terabytes of data, in a Postgres database that ended up with 14 billion rows. Hundreds of thousands of players were tracked at 1-second intervals. Tens of thousands of bases were downloaded, totaling over ten billion logged block events. It's a fascinating slice of life, essentially a year of history of thousands of anarchy Minecraft bases, updated at 15 minute intervals. <a href="https://www.youtube.com/watch?v=QxOg4djjJks">Here's</a> an example of a timelapse made from that data, for one such base. <a href="https://www.youtube.com/watch?v=5FiUjdgwG-Q&list=PLOxa3ecQg7Kixbh1ZXrxJpmoIUUJxy_fv&index=2">Here's</a> another and <a href="https://www.youtube.com/watch?v=Zuu3gUOyxV0&list=PLOxa3ecQg7Kixbh1ZXrxJpmoIUUJxy_fv&index=3">another</a> and <a href="https://www.youtube.com/watch?v=QZgnUbMuFL0">another</a> :) </p>
+<p>Eventually, another group discovered the same exploit packet, one thing led to another, it got out, and the exploit was patched.</p>
+<br>
+More resources:
+<ul>
+<li><a href="https://github.com/nerdsinspace/nocom-explanation/blob/main/README.md">My in-depth explanation</a></li>
+<li><a href="https://news.ycombinator.com/item?id=29615428">Hacker News thread</a></li>
+<li><a href="https://2b2t.miraheze.org/wiki/Nocom">2b2t Wiki article</a></li>
+<li><a href="https://www.youtube.com/watch?v=3ayxeruAan8">Teaser trailer video</a></li>
+<li><a href="https://www.youtube.com/watch?v=elqAh3GWRpA">FitMC's video that revealed to a general audience what the exploit was and the scope of its usage (YouTube, 4 million views)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/2b2t#Nocom_exploit">2b2t Wikipedia article's section about Nocom</a></li>
+<li><a href="https://kotaku.com/minecraft-s-worst-server-was-exploited-so-hard-griefe-1847393788">Kotaku article</a></li>
+<li><a href="https://www.pcgamer.com/minecrafts-most-anarchic-server-brought-to-its-knees-by-griefers/">PC Gamer article</a></li>
+<li><a href="https://www.windowscentral.com/how-2b2t-minecraft-server-was-almost-toppled-exploit">Windows Central article</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
